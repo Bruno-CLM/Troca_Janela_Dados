@@ -1,4 +1,4 @@
-package br.com.itb.aula01trocajanelas;
+package br.com.itb.aula02TrocarJanelaDados;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,12 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import br.com.itb.aula01trocajanelas.databinding.ActivityMain2Binding;
+import br.com.itb.aula02TrocarJanelaDados.databinding.ActivityMain2Binding;
 
 public class MainActivity2 extends AppCompatActivity {
 

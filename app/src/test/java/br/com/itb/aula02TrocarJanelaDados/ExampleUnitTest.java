@@ -1,4 +1,4 @@
-package br.com.itb.aula01trocajanelas;
+package br.com.itb.aula02TrocarJanelaDados;
 
 import org.junit.Test;
 

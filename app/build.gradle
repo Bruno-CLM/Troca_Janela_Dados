@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "br.com.itb.aula01trocajanelas"
+        applicationId "br.com.itb.aula02TrocarJanelaDados"
         minSdkVersion 22
         targetSdkVersion 30
         versionCode 1

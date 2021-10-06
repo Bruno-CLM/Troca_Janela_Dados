@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.itb.aula01trocajanelas">
+    package="br.com.itb.aula02TrocarJanelaDados">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula01TrocaJanelas">
         <activity
-            android:name=".MainActivity2"
+            android:name="br.com.itb.aula02TrocarJanelaDados.MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Aula01TrocaJanelas.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="br.com.itb.aula02TrocarJanelaDados.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
