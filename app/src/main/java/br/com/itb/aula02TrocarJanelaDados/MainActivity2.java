@@ -6,6 +6,7 @@ import android.os.Bundle;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +16,7 @@ import br.com.itb.aula02TrocarJanelaDados.databinding.ActivityMain2Binding;
 public class MainActivity2 extends AppCompatActivity {
 
     private ActivityMain2Binding binding;
-    private Button btnVoltar;
+    private AppCompatButton btnVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

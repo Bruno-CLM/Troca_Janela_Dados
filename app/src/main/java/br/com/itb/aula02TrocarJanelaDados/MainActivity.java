@@ -1,6 +1,7 @@
 package br.com.itb.aula02TrocarJanelaDados;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +10,8 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    AppCompatButton botao;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Criar objeto java correspondente ao botão da tela
         //findViewById() criará um vínculo entre eles
-        Button botao = findViewById(R.id.btnTrocarJanela);
+        botao = findViewById(R.id.btnTrocarJanela);
 
         // Adicionar método de acionamento do botão por clique
         botao.setOnClickListener(new View.OnClickListener(){
